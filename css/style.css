@@ -1,0 +1,619 @@
+html {
+  box-sizing: border-box;
+  font-family: "Open Sans"
+}
+
+a {
+  text-decoration: none;
+  color: #bdd537;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+#green {
+  color: #bdd537;
+}
+
+h4 {
+  text-transform: uppercase;
+  font-size: 42px;
+  line-height: 46px;
+  font-family: 'Oswald'
+}
+
+.clear {
+  clear: left;
+}
+
+/*Body*/
+
+body {
+  background-color: #FFFFFF;
+  margin: 0;
+  padding: 0;
+}
+
+/*Nav Bar*/
+
+#upper-left-logo {
+  height: 35%;
+  display: inline-block;
+  position: absolute;
+  left: 5%;
+  top: 20%;
+}
+
+.nav-bar {
+  display: inline-block;
+  margin: auto auto calc(75px/2) auto;
+  position: relative;
+  height: 100px;
+  width: 100%;
+}
+
+.nav-bar ul {
+  display: none;
+}
+
+.hamburger {
+  width: 20%;
+  height: 75px;
+  float:right;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.hamburger img {
+  width: 100%;
+  height: 100%;
+}
+
+.btn {
+  background-color: #bdd537;
+  color: #fff;
+  height: 50px;
+  width: 90%;
+  margin: auto;
+  border-radius: 5px;
+  position: relative;
+  line-height: 50px;
+}
+
+/*Banner*/
+
+.banner {
+  background: url('http://wideopentech.com/themes/wot-2013-gm/_/img/wot-masthead-dark.jpg');
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  position: relative;
+  text-align: center;
+  z-index: -1;
+}
+
+.workshop {
+  text-align: center;
+  width: 100%;
+  height: 400px;
+  position: inherit;
+
+}
+
+.banner-workshop {
+  text-align: center;
+  display: flex;
+  margin-right: 10vw;
+  transform: translateX(50%);
+}
+
+.workshop span {
+  display: inline;
+}
+
+
+
+.hr {
+  width: 100px;
+  display: inline-block;
+  height: 10px;
+  padding-bottom: 10px;
+}
+
+/*.banner-workshop h2 {
+  font-size: 22px;
+    font-weight: 500;
+    display: block;
+    color: #fff;
+    text-align: left;
+    margin-left: 2em;
+}
+
+.workshop h1 {
+  font-size: 4em;
+  margin: auto;
+}
+
+.workshop p {
+  font-size: 1em;
+}*/
+
+.workshop-sub-text {
+  font-size: 25px;
+  line-height: 40px;
+  height: auto;
+  margin-bottom: 40px;
+}
+
+.solutions {
+  color: #ff803a;
+}
+
+.ideas {
+  color: #bdd537
+}
+
+#before {
+  height: 15px;
+  width: 90px;
+  background-color: white;
+  display: inline-block;
+}
+
+.banner p {
+  margin: auto;
+  display: inline;
+  font-size: 80%;
+}
+
+
+/*Sub Banner*/
+
+.sub-banner {
+  background-color: #F0f0f0;
+  padding: 20px;
+  text-align: center;
+  line-height: 38px;
+  font-family: 'Open Sans';
+  color: #40666d;
+  padding: 20px 8vw;
+}
+
+.sub-banner img {
+  height: 100px;
+  width: 100px;
+}
+
+.tools-how-it-works {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /*height: 250px;*/
+  position: relative;
+  bottom: 5px;
+}
+
+.tools-how-it-works img {
+  position: relative;
+  top: 45px;
+  height: 170px;
+  width: 170px;
+}
+
+/*How it works*/
+
+.how-it-works {
+  width: 100%;
+  text-align: center;
+  color: #8f8787;
+  font-family: 'Open Sans';
+  font-size: 18px;
+  line-height: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+.how-it-works-symbol {
+  height: 170px;
+  width: 170px
+}
+
+.how-it-works-col {
+  background-color: #ffffff;
+  width: 80%;
+  height: 100%;
+  display: block;
+  padding: 75px 25px;
+  margin: 0 auto 50px auto;
+}
+
+.how-it-works a {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.arrowlink {
+  height: 50px;
+  width: 50px;
+}
+
+/*How we help */
+
+.how-we-help {
+  width: 100%;
+  background-color: #f0f0f0;
+  text-align: center;
+  justify-content: center;
+  color: #40666d;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.how-we-help h1 {
+  font-family: 'Open Sans';
+  font-size: 24px;
+  line-height: 25px;
+}
+
+.how-we-help h2 {
+  font-family: 'Open Sans';
+  font-size: 16px;
+  line-height: 25px;
+  color: #858585;
+}
+
+.how-we-help h3 {
+  font-family: 'Helvetica Neue';
+  font-size: 22px;
+  line-height: 24px;
+  color: #40666d;
+  margin-bottom: 30px;
+}
+.how-we-help h4 {
+  margin: 0;
+}
+
+.help-card {
+  background-color: white;
+  width: 90%;
+  padding: 20px;
+  margin: 10px 20px;
+  display: block;
+}
+
+/*We Work with*/
+
+.we-work-with {
+  background-color: #bdd537;
+  width: 100%;
+  padding: 25px 10px;
+  text-align: center;
+}
+
+.we-work-with img {
+  max-height: 200px;
+  max-width: 200px;
+}
+
+.we-work-with h1 {
+  text-transform: uppercase;
+  font-family: 'Oswald';
+  font-size: 42px;
+  font-weight: 300;
+  line-height: 46px;
+  color: #FFF;
+}
+
+.we-work-with div {
+  height: 200px;
+  width: 200px;
+  margin: auto;
+
+}
+
+/*Locations*/
+
+.locations {
+  width: 100%;
+  display: block;
+}
+
+.locations h1 {
+  font-family: 'Open Sans';
+  font-size: 30px;
+  line-height: 33px;
+  font-weight: 500;
+  color: #bdd537;
+  margin: 0;
+}
+
+.locations p {
+  font-family: 'Open Sans';
+  font-size: 15px;
+  line-height: 25px;
+  color: #fff;
+  font-weight: 500;
+  margin-bottom: 2px;
+  margin-top: 0;
+}
+
+.locations-card {
+  background-color: #353F42;
+  opacity: 0.9;
+  padding: 10px 20px;
+  border-radius: 3px;
+  width: 80%;
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.locations-col-1 {
+  width: 100%;
+  height: 250px;
+  display: block;
+  background: url('../images/wilmington.jpg') center no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.locations-col-2 {
+  width: 100%;
+  height: 250px;
+  display: block;
+  background: url('../images/asheville.jpg') center no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/*Newsletter*/
+
+.newsletter {
+  height: 400px;
+  width: 100%;
+  color: #6a787c;
+  text-align: center;
+  padding: 20% 10px;
+  position: relative;
+}
+.newsletter img {
+  height: 50px;
+  margin:auto;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.newsletter h1 {
+  font-family: 'Lato', bold;
+  font-size: 21px;
+  line-height: 23px;
+}
+
+.newsletter h2 {
+  font-family: 'Open Sans';
+  font-size: 14px;
+  line-height: 25px;
+  text-transform: uppercase;
+}
+
+.newsletter-form {
+  width: 89%;
+  background-color: #F0F0F0;
+  border-radius: 3px;
+  font-family: 'Open Sans';
+  font-size: 14px;
+  line-height: 20px;
+  margin: auto;
+}
+
+.newsletter-email {
+  height: 100%;
+  width: 75%;
+  padding: 5px;
+  display: inline-block;
+  text-align: left;
+}
+
+.newsletter-signup {
+  height: 100%;
+  width: 23%;
+  padding: 4px;
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 23px;
+  display: inline-block;
+  background-color: #bdd537;
+  color: white;
+  border-radius: 3px;
+}
+
+/*Footer*/
+
+footer {
+  height: 75px;
+  width: 100%;
+  background-color: #788488;
+  position: relative;
+  font-family: 'Open Sans';
+  font-size: 12px;
+  line-height: 25px;
+  color: #fff;
+}
+
+#privacy {
+  color: #bdd537;
+  font-size: 10px;
+  line-height: 25px;
+}
+
+footer p {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+/*Media Queries*/
+
+@media (min-width: 700px) {
+
+    .hamburger {
+      display: none;
+    }
+
+    .nav-bar ul {
+      display: inline-block;
+      padding: 0;
+      margin: 0;
+      height: 100%;
+      position: absolute;
+      top: 10%;
+      right: 5%;
+    }
+
+    .nav-bar li {
+      text-decoration: none;
+      text-transform: uppercase;
+      display: inline-block;
+      font-family: 'Lato';
+      font-size: 16px;
+      line-height: 23px;
+      color: white;
+      margin-right: 15px;
+    }
+
+    .workshop {
+      height: 200px;
+      width: 80%;
+      margin: auto;
+    }
+
+    .workshop h1 {
+      font-size: 152px;
+      line-height: 185px;
+    }
+
+    .workshop h2 {
+      position: absolute;
+      left: 0;
+    }
+
+    .btn {
+      width: 150px;
+    }
+
+    .how-it-works {
+      display: flex;
+      justify-content: space-around;
+      background-color: #fff;
+      height: 600px;
+      width: 100%;
+      text-align: center;
+      padding: 50px 0;
+      position: relative;
+    }
+
+    .how-it-works-col {
+      display: inline-block;
+      width: 25%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+
+    .left-column-align {
+      width: 100%;
+      height: 37px;
+    }
+    #border {
+      border-right: 1px solid black;
+    }
+
+    .how-we-help {
+      width: 100%;
+      text-align: center;
+    }
+
+    .how-we-help-col {
+      width: 40%;
+      height: 100%;
+      display: inline-block;
+      margin-bottom: 25px;
+      float: left;
+    }
+
+    .how-we-help-offset {
+      margin-left: 10%;
+    }
+
+    .help-card {
+      display: inline-block;
+    }
+
+    #big {
+      height: 243.8px;
+    }
+
+    .we-work-with div {
+      display: inline-block;
+    }
+
+    .locations {
+      display: block;
+      position: relative;
+      height: 300px;
+      width: 101%;
+      text-align: center;
+      margin: 0;
+    }
+
+    .locations-col-1 {
+      width: 49%;
+      height: 100%;
+      display: inline-block;
+
+    }
+    .locations-col-2 {
+      width: 49%;
+      height: 100%;
+      display: inline-block;
+    }
+
+    .locations-card {
+      text-align: left;
+    }
+
+    .newsletter {
+      height: 500px;
+      padding: 0;
+      padding-top: 150px;
+      position: relative;
+    }
+
+    .newsletter img {
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+    }
+
+    .newsletter-form {
+      width: 60%;
+      margin-top: 25px;
+    }
+
+    footer {
+      padding-left: 50px;
+    }
+
+
+
+
+}
